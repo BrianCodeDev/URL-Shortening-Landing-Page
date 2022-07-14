@@ -1,0 +1,28 @@
+.navbar .container-fluid .navbar-brand {
+  color: #890C94;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.collapse .navbar-nav .nav-item .nav-link {
+  color: #9E9ABB;
+  font-size: 20px;
+}
+
+.collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #08009e;
+  font-size: 20px;
+}
+
+.header {
+  width: 35%;
+  display: inline-block;
+}
+
+.content .content-info h2 {
+  color: #890C94;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
