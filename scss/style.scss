@@ -11,6 +11,7 @@
 .collapse .navbar-nav .nav-item .nav-link:hover {
     color: #08009e;
     font-size: 20px;
+    background-color: rgb(237, 232, 227);
 
 }
 .d-flex .nav-link {
@@ -18,6 +19,17 @@
     font-size: 20px;
      padding-top: 2px;
      margin-right: 10px;
+     width: 80px;
+     text-align: center;
+}
+.d-flex .nav-link:hover {
+    color: #08009e;
+    font-size: 20px;
+     padding-top: 2px;
+     margin-right: 10px;
+     background-color: rgb(237, 232, 227);
+     width: 80px;
+     text-align: center;
 }
 .d-flex .button {
  background-color: #0C4A94;
@@ -121,5 +133,41 @@
     font-size: 20px;
     font-weight: bold;
 }
-
-
+// card layout scss
+.card-group .card {
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 200px;
+    margin-bottom: 50px;
+    background-color: #804789;
+    border-color: #804789;
+    border-style: solid;
+    margin-top: 50px;
+    box-shadow: 10px 5px 5px #db72eb;
+    color: antiquewhite;
+}
+// text info scss
+.text-content-info {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.text-content-info p {
+    color: black;
+    font-size: 20px;
+    
+}
+// footer scss
+footer {
+    background-color: #EDE9E9;
+}
+section {
+    padding-top: 20px;
+}
+.container .row .col-md-3 .title {
+    color: #890C94;
+    font-size: 25px;
+}
+.container .row .col-md-3 .title-p {
+color: #804789;
+font-size: 20px;
+}
